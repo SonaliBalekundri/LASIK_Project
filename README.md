@@ -1,7 +1,8 @@
 👁️ Project #2: LASIK Corneal Topography Analyser
 🏥 Domain: Medical Image Processing / Computer Vision
 
-⚙️ What it does: Automated analysis of corneal topography images from WaveLight EX500 LASIK surgical planning system. The tool:
+⚙️ What it does: Automated analysis of corneal topography images from WaveLight EX500 LASIK surgical planning system. 
+The tool:
 	1.	Extracts the ablation profile region from full screenshots
 	2.	Detects irregular corneal regions (“Taluses”) using contour detection
 	3.	Calculates centroid coordinates for each region
