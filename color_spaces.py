@@ -2,7 +2,7 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 
 # READING IMAGE
-img=cv.imread('retina7.jpg')
+img=cv.imread('retina26.jpg')
 cv.imshow('eye', img)
 
 
@@ -61,6 +61,7 @@ plt.show()
 '''BGR to HSL'''
 # hsl=cv.cvtColor(img,cv.COLOR_BGR2HLS)
 # cv.imshow('HSL',hsl)
+
 
 
 
