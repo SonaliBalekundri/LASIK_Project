@@ -32,5 +32,3 @@
 → Add batch processing for multiple patient scans
 → Integrate with DICOM format for hospital system compatibility
 → Add automated report generation with PDF export
-
-#MedicalImaging #ComputerVision #OpenCV #Python #LASIK #HealthTech #StudentProject #BuildingInPublic
