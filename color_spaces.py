@@ -2,7 +2,7 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 
 # READING IMAGE
-img=cv.imread('retina26.jpg')
+img=cv.imread('images/retina26.jpg')
 cv.imshow('eye', img)
 
 
@@ -66,3 +66,4 @@ plt.show()
 
 
 cv.waitKey(0) 
+
