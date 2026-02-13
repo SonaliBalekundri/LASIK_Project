@@ -15,7 +15,7 @@ def rescaleFrame(frame, scale=0.75):
 
 
 # RESIZING & RESCALING IMAGES
-img=cv.imread('retina26.jpg')
+img=cv.imread('images/retina26.jpg')
 resized_img=rescaleFrame(img)
 cv.imshow('eye', img)
 cv.imshow('eye Resized', resized_img)
@@ -36,4 +36,5 @@ cv.waitKey(0)
 
 # capture.release()
 # cv.destroyAllWindows
+
 
