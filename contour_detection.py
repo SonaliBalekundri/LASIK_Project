@@ -7,7 +7,7 @@ They are not the same as edges.
 Contours are useful tools when you get into shape
 analysis and object detection.'''
 
-img=cv.imread('retina26.jpg')
+img=cv.imread('images/retina26.jpg')
 cv.imshow('eye', img)
 
 '''Using blank image so that we can draw the 
@@ -43,6 +43,7 @@ cv.drawContours(blank,contours,-1,(0,0,255),1)
 cv.imshow('Contours Drawn',blank)
 
 cv.waitKey(0) 
+
 
 
 
