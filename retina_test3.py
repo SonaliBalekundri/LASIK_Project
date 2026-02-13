@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 '''Code To read an Image and display'''
-img = cv.imread('Patient2.jpg')
+img = cv.imread('images/Patient2.jpg')
 cv.imshow('Actual Image',img)
 
 
@@ -29,6 +29,7 @@ def trackbar(x):
     print(reti)
     return reti
 cv.createTrackbar('Retina','Scaling', 65, 200,trackbar)
+
 
 
 cv.waitKey(0)
