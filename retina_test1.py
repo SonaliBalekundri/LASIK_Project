@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 '''Code To read an Image and display'''
-img = cv.imread('Patient3.jpg')
+img = cv.imread('images/Patient3.jpg')
 # cv.imshow('Actual Image',img)
 
 
@@ -53,3 +53,4 @@ for i in contours:
 cv.imshow("image.png", cut_image)
 
 cv.waitKey(0)
+
